@@ -1,5 +1,7 @@
-# LLMCOACH: Synthesizing Driving Rules for Autonomous Vehicles
+# From Rules to Road: Executable Safety Policies within the Autonomous Vehicle Planner
 
+
+## LLM-Assisted Rule Generation
 - Function call.txt: The function call representation for the $\mu$Drive language.
 - Grammer.txt: The EBNF grammar of the $\mu$Drive DSL.
 - Mannul Rules.txt: Driving rules manually crafted based on traffic laws.
