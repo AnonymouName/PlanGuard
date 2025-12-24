@@ -20,10 +20,10 @@
 - utils.py: Some auxiliary functions, including extracting driving rules from LLM response content and converting driving rules represented by Function calls back into $\mu$Drive language.
 
 ## LawBreaker
-- LawBreak: Code for detecting traffic condition violations in scenarios, sourced from LawBreak.
+- LawBreak: The traffic-condition violation detection code is adapted from [LawBreaker](https://github.com/lawbreaker2022/LawBreaker-SourceCode) and refactored to support Apollo 9.0. As FixDrive is built upon the same LawBreaker framework, relevant details can also be found in the [FixDrive project](https://github.com/lawbreaker2022/FixDrive2025).
 
 ## Related Scenarios and Results
-- Scenario: All guideline driving scenarios employed in the experiment, comprising 10 traffic violation scenarios from $\mu$Drive and official scenarios provided by Apollo.
+- Scenario: All guideline driving scenarios employed in the experiment, comprising 10 traffic violation scenarios from LawBreaker and FixDrive and official scenarios provided by Apollo.
 - Specs: Including the traffic laws and driving manuals applied in the experiment.
 - Result：
   - Analysis.xlsx: Including documented records of the reasonableness of the generated rules.
