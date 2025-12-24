@@ -1,6 +1,15 @@
 # From Rules to Road: Executable Safety Policies within the Autonomous Vehicle Planner
 
 
+## PlanGuard
+- Before using this project, please securely set up and build the Apollo 9.0 environment according to [the official Apollo system instructions](https://github.com/ApolloAuto/apollo).
+- Other Prerequisites：
+  - Antrl4：Make sure installation of version [antlr-4.8](https://www.antlr.org/download/antlr-4.8-complete.jar) (the latest version is not supported).
+  - rtamt：Please refer to [the github page](https://github.com/nickovic/rtamt) for installation of RTAMT.
+  - Python3
+- Replace the original Apollo planning module with the planning directory provided in this repository, and recompile the system. The provided planning module implements a bridge between PlanGuard and Apollo.
+- 
+
 ## LLM-Assisted Rule Generation
 - Function call.txt: The function call representation for the PlanGuard language.
 - Grammer.txt: The EBNF grammar of the PlanGuard.
@@ -9,6 +18,8 @@
 - Post_dealwith_semantic.py: Responsible for using LLM to perform semantic correction on generated driving rules.
 - Post_dealwith_syntax.py: Responsible for using LLM to perform grammatical correction on generated driving rules.
 - utils.py: Some auxiliary functions, including extracting driving rules from LLM response content and converting driving rules represented by Function calls back into $\mu$Drive language.
+
+## LawBreaker
 - LawBreak: Code for detecting traffic condition violations in scenarios, sourced from LawBreak.
 
 ## Related Scenarios and Results
