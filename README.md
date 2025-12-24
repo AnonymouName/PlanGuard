@@ -4,11 +4,11 @@
 ## PlanGuard
 - Before using this project, please securely set up and build the Apollo 9.0 environment according to [the official Apollo system instructions](https://github.com/ApolloAuto/apollo).
 - Other Prerequisites：
-  - Antrl4：Make sure installation of version [antlr-4.8](https://www.antlr.org/download/antlr-4.8-complete.jar) (the latest version is not supported).
-  - rtamt：Please refer to [the github page](https://github.com/nickovic/rtamt) for installation of RTAMT.
+  - ANTLR4：Make sure installation of version [antlr-4.8](https://www.antlr.org/download/antlr-4.8-complete.jar) (the latest version is not supported).
+  - RTAMT：Please refer to [the github page](https://github.com/nickovic/rtamt) for installation of RTAMT.
   - Python3
 - Replace the original Apollo planning module with the planning directory provided in this repository, and recompile the system. The provided planning module implements a bridge between PlanGuard and Apollo.
-- 
+- Language：The PlanGuard language implemented based on ANTLR4
 
 ## LLM-Assisted Rule Generation
 - Function call.txt: The function call representation for the PlanGuard language.
